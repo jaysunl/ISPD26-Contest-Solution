@@ -1,6 +1,8 @@
 ## Visualizations of the Second Set of Benchmarks 
 
-These are visualizations of the second set of benchmarks, which include **placement blockages**.  
+These are visualizations of the second set of benchmarks, which include **placement blockages**. 
+
+These visualizations are generated using an unnamed commercial tool.
 
 
 
