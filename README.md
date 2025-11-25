@@ -34,7 +34,33 @@ Email: ispd26contest@gmail.com
 ## Registration
 - Please fill in this [online registration form](https://forms.gle/w2bDxrAENhFzw862A)
 - Registration window: Oct.1, 2025 - Nov 30, 2025
+- We confirm that we’ve received the registration forms from the following teams. If we overlooked your registration or any related information, please feel free to email us.
 
+| ID | Team Name | Affiliation |
+|----------|-------------|---------|
+| 1   | Horiguchi Takahiro        | Unknown |
+| 2   | XidianU         | Xidian University|
+| 3   | Marvin         | Indian Institute of Technology Madras|
+| 4   | IITM Placement Cell         |Indian Institute of Technology, Madras |
+| 5   | GT         | georgia tech|
+| 6   | PKU         | Peking University|
+| 7   | m0654         | Yuan Ze University|
+| 8   | nvBuffplace         | NVIDIA|
+| 9   | HKUST-GZ         |The Hong Kong University of Science and Technology (Guangzhou) |
+| 10   | arg_duck         | Independent|
+| 11   | Placed and Confused         | Chair of Electronic Design Automation, Technical University of Munich (TUM)|
+| 12   | ChipFat         |Vellore Institute of Technology |
+| 13   | UCLA_Placer         |UCLA |
+| 14   | IRISLab         | Graduate Institute of Electronics Engineering, National Taiwan University|
+| 15   | timing-booster         | Texas A&M University|
+| 16   | lololol         |Department of Electrical Engineering,National Taiwan University of Science and Technology |
+| 17   | ECOS-OPT           | Institute of Computing Technology, Chinese Academy of Sciences|
+| 18   | have a try         | Sun Yat-Sen University|
+| 19   | poSTer         | southeast university|
+| 20   | Anti_Chaos       |Southeast University |
+| 21   | Wild at heart          | National Yang Ming Chiao Tung University|
+| 22   | BFS        | Yuan Ze University|
+| 23   | Encoding         | National Yang Ming Chiao Tung University |
 
 ## Contest Prizes
 - First, second and third place winning teams will receive prizes consisting of cash and/or NVIDIA GPUs, with a total value of prizes at least USD $5000. Thanks to NVIDIA for their sponsorship of the ISPD26 contest prizes!
