@@ -62,6 +62,8 @@ Email: ispd26contest@gmail.com
 | 22   | BFS        | Yuan Ze University|
 | 23   | Encoding         | National Yang Ming Chiao Tung University |
 | 24   | ECOS-OPT         | Institute of Computing Technology, Chinese Academy of Sciences |
+| 25   | NYCUVDALAB        | Institute of Electronics, National Yang Ming Chiao Tung Unniversity |
+| 26   | The Phoenix Gate Guardians      | The Chinese University of Hong Kong |
 
 ## Contest Prizes
 - First, second and third place winning teams will receive prizes consisting of cash and/or NVIDIA GPUs, with a total value of prizes at least USD $5000. Thanks to NVIDIA for their sponsorship of the ISPD26 contest prizes!
