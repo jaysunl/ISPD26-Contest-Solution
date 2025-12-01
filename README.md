@@ -32,7 +32,8 @@ Prof. Zhiang Wang, Fudan University [zhiangwang@fudan.edu.cn]
 Email: ispd26contest@gmail.com
 
 ## Registration
-- Please fill in this [online registration form](https://forms.gle/w2bDxrAENhFzw862A)
+<!-- - Please fill in this [online registration form](https://forms.gle/w2bDxrAENhFzw862A)-->
+- Registration has closed.
 - Registration window: Oct.1, 2025 - Nov 30, 2025
 - We confirm that we’ve received the registration forms from the following teams. If we overlooked your registration or any related information, please feel free to email us.
 
