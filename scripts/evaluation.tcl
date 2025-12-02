@@ -68,14 +68,14 @@ set_routing_layers -signal $sig_layers -clock $clk_layers
 
 puts "### Global routing (first attempt) ###"
 set placement_legal 1
-if {[catch { global_route -allow_congestion -congestion_report_file $crfile } gr_err]} {
+if {[catch { global_route -skip_large_fanout_nets 300 -allow_congestion -congestion_report_file $crfile } gr_err]} {
   # If GR fails (e.g., unplaced inst), legalize then retry
   puts "INFO: global_route failed on first attempt: $gr_err"
   puts "INFO: running detailed_placement, then retrying global_route..."
   set placement_legal 0
 
   detailed_placement
-  if {[catch { global_route -allow_congestion } gr_err2]} {
+  if {[catch { global_route -skip_large_fanout_nets 300 -allow_congestion } gr_err2]} {
     puts stderr "ERROR: global_route still failing after detailed_placement: $gr_err2"
     exit 2
   }
