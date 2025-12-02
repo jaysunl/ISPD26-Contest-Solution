@@ -20,8 +20,9 @@ Prof. Zhiang Wang, Fudan University [zhiangwang@fudan.edu.cn]
 ## Timeline
 - Registration Open: Oct 1, 2025
 - Release the first set of benchmarks, evaluation scripts and Docker image: Oct. 1, 2025
-- **Release the second set of benchmarks (with placement blockages): Nov. 9, 2025**
+- Release the second set of benchmarks (with placement blockages): Nov. 9, 2025
 - Registration Close: Nov 30, 2025
+- **Release one large-scale testcase: Dec. 1, 2025**
 - Alpha Submission Deadline: Jan 12, 2026
 - Beta Submission Deadline: Feb, 2, 2026
 - Final Submission Deadline: Mar, 7, 2026 (Anywhere on earth, and it is a hard deadline)
