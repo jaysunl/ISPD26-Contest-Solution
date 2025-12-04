@@ -1,9 +1,8 @@
 ## Visualizations of the Second Set of Benchmarks 
 
-These are visualizations of the second set of benchmarks, which include **placement blockages**. 
+These are visualizations of four public benchmarks with **placement blockages**. 
 
 These visualizations are generated using an unnamed commercial tool.
-
 
 
 ### [aes_cipher_top_v2](./aes_cipher_top_v2/)
@@ -14,3 +13,6 @@ These visualizations are generated using an unnamed commercial tool.
 
 ### [ariane_v2](./ariane_v2/)
 ![](../figures/benchmarks/ariane_v2.png)
+
+### [bsg_chip_v2](./bsg_chip_v2/)
+![](../figures/benchmarks/bsg_chip_v2.png)
