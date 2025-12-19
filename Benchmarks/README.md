@@ -1,5 +1,7 @@
 ## Visualizations of the Second Set of Benchmarks 
 
+**Please download the benchmarks from this [link](https://vlsicad.ucsd.edu/ISPD26-Contest/ispd26.html)**
+
 These are visualizations of four public benchmarks with **placement blockages**. 
 
 These visualizations are generated using an unnamed commercial tool.

@@ -1,2 +1,0 @@
-bsg_chip/TCP_1200_UTIL_0.30/contest.def filter=lfs diff=lfs merge=lfs -text
-bsg_chip/TCP_1200_UTIL_0.30/contest.v filter=lfs diff=lfs merge=lfs -text
