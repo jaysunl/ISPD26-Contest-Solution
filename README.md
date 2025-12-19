@@ -12,7 +12,7 @@ Prof. Zhiang Wang, Fudan University [zhiangwang@fudan.edu.cn]
 
 ## Table of Contents
 - Contest description: [ISPD26_contest_description.pdf](./ISPD26_contest_description.pdf)
-- [Benchmarks](./Benchmarks): Public benchmarks.
+- [Benchmarks](https://vlsicad.ucsd.edu/ISPD26-Contest/ispd26.html): Public benchmarks.
 - [Platform/ASAP7](./Platform/ASAP7): Technology platform files and libraries for the ASAP7 PDK.
 - [Evaluation scripts](./scripts): Evaluation scripts for [aes_cipher_top](./scripts/aes_cipher_top/eval.sh), [jpeg_encoder](./scripts/jpeg_encoder/eval.sh), [ariane](./scripts/ariane/eval.sh) and [bsg_chip](./scripts/bsg_chip/eval.sh). 
 - [Docker containers and submission formatting](./docker): Dockerfile and commands required to maintain a consistent evaluation and submission environment can be found at the [`README`](./docker/README.md).
