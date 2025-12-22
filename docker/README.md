@@ -4,8 +4,8 @@
 
 The intention of this container is to provide a consistent interactive environment for development and evaluation. It is based on Ubuntu 24.04 and contains:
 - OpenROAD - Binary installation with sources at `/OpenROAD` (Commit `7559f9664a6561cc277e4ec8161b742573e7d521`)
-    - This version is patched to support the [evaluator](../scripts/evaluation.tcl), see [`ord.patch`](ord.patch) if you wish to build your own version.
-- OpenROAD-Flow-Scripts (commit `66e441c6cbb6cb9ac871726fc8373317f164ed84`)
+    - This version is patched to support the [evaluator](../scripts/evaluation.tcl), see [`ord.patch`](ord.patch) or [this repository](https://github.com/sakundu/OpenROAD/tree/ispd26) if you wish to build your own version.
+- OpenROAD-Flow-Scripts (commit `26b521c49218eb10f4274d782e420cdc824adbc3`)
 - Conda 25.7.0 (Miniconda)
 - Miscellaneous tools including Yosys.
 
@@ -22,9 +22,9 @@ Thus, to support package installation, you need to create a writable "overlay" l
 singularity overlay create --fakeroot -S -s 20480 my_overlay.img 
 
 # For CPU only operation
-singularity run -o my_overlay.img --fakeroot docker://udxs/ispd26:v1
+singularity run -o my_overlay.img --fakeroot docker://udxs/ispd26:v3
 # For CUDA-capable NVIDIA GPUs:
-singularity run -o my_overlay.img --fakeroot --nv docker://udxs/ispd26:v1
+singularity run -o my_overlay.img --fakeroot --nv docker://udxs/ispd26:v3
 ```
 
 
