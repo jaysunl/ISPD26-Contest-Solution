@@ -1,0 +1,4 @@
+[submodule "openroad"]
+	path = openroad
+	url = https://github.com/sakundu/OpenROAD.git
+	branch = ispd26
