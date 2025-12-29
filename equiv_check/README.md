@@ -70,7 +70,7 @@ source or_utils.tcl
 # Write out the node and net files
 write_node_and_net_files "node.csv" "nets.csv"
 ```
-You can refer to `run_equiv_check.sh` in the folder scripts/{design}.
+You can refer to `../scripts/{design}/run_equiv_check.sh`.
 
 The exported files have the following formats:
 
