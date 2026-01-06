@@ -31,12 +31,18 @@ singularity run -o my_overlay.img --fakeroot --nv docker://udxs/ispd26:v3
 ## Submission Formatting 
 
  When you prepare your submission, you will be required to submit a ZIP file containing:
-- A `setup.sh` that installs all necessary dependencies (incl. the ability to use `apt` and `pip`)
-- A `run.sh` that will run your developed tool to produce the required `<design_name>.def`, `<design_name>.v` and `<design_name>.changelist` into the directory referenced by the environment variable `OUTPUT_DIR`. 
+- A `setup.sh` that installs all necessary dependencies (incl. the ability to use `apt`, `pip`, and `conda`) and performs compilation
+- A `run.sh` that will run your developed tool to produce the required DEF/Verilog output from a given input design.
 - Any necessary data or code that is not already retrieved in your `setup.sh`.
 
-See *Section 6. Submission Guidelines* in the [contest description](../ISPD26_contest_description.pdf) for more details.
+The contents of this ZIP file will be placed in `/opt/contest` in a fresh Apptainer container imaged as described above. `setup.sh` should install packages and 
+set up any artifacts required for running your submission within the `/opt/contest` directory.
 
-This will be extracted within the container and executed when it comes time to official evaluation. Please thus ensure that your submission works in a fresh Docker or Apptainer/Singularity container when extracted to *any* location. 
+`run.sh <input_dir> <platform_dir> <output_dir> <top_module>` will be called as part of evaluation 
+from the `/opt/contest` directory and will be called with the following arguments:
+- `input_dir` contains the input design: `contest.def`, `contest.sdc`, and `contest.v`.
+- `platform_dir` contains the ASAP7 enablement, in the same layout as [Platform/ASAP7](../Platform/ASAP7).
+- `output_dir` is the empty directory in which you will place your `result.def` and `result.v`.
+- `top_module` is the top module of the design.
 
-
+See *Section 6. Submission Guidelines* and *Section 3.2.2. Platforms* in the [contest description](../ISPD26_contest_description.pdf) for more details. Please test your submission scripts in the container before submitting.
