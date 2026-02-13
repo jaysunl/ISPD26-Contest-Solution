@@ -25,8 +25,8 @@ Prof. Zhiang Wang, Fudan University [zhiangwang@fudan.edu.cn]
 - Release one large-scale testcase: Dec. 1, 2025
 - Release one large-scale testcase with placement blockages; all public benchmarks are available: Dec. 3, 2025
 - Alpha Submission Deadline: Jan 12, 2026
-- **Beta Submission Deadline: Feb, 2, 2026**
-- Final Submission Deadline: Mar, 7, 2026 (Anywhere on earth, and it is a hard deadline)
+- Beta Submission Deadline: Feb, 2, 2026
+- **Final Submission Deadline: Mar, 7, 2026 (Anywhere on earth, and it is a hard deadline)**
 - Results Announcement: March 18, 2026
 
 
@@ -85,6 +85,15 @@ Email: ispd26contest@gmail.com
 | OpenROAD RSZ   | 1107.55  | [script](./scripts/evaluation_baseline.tcl)      | 
 | Rank2   | 1106.29      |      | 
 | Rank3   | 588.85      |      | 
+| pre_opt   | 0      | `contest.def` without any optimization  | 
+
+## Beta Submission
+| Rank | Total Score | Notes     | 
+|----------|-------------|-------------|
+| Rank1  | 1309.12      |     | 
+| Rank2   | 1185.65      |      | 
+| Rank3   | 1109.22      |      | 
+| OpenROAD RSZ   | 1107.55  | [script](./scripts/evaluation_baseline.tcl)      | 
 | pre_opt   | 0      | `contest.def` without any optimization  | 
 
 
